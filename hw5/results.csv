@@ -1,0 +1,21 @@
+﻿instance,method,best_value,elapsed_ms,visited_nodes,pruned_nodes,completed,dual_bound,gap_percent
+knapsack_small,Brute Force,183,7.176133,102605,34572,True,,
+knapsack_small,Dynamic Programming,183,0.058184,1197,0,True,,
+knapsack_small,B&B Loose UB,183,70.187910,15326,15327,True,,
+knapsack_small,B&B Fractional UB,183,0.048994,29,25,True,,
+knapsack_small,B&B Loose UB (1s limit),183,96.895047,15326,15327,True,183.000000,0.000000
+knapsack_large_w,Brute Force,486,4.524794,48767,20725,True,,
+knapsack_large_w,Dynamic Programming,486,184.325920,2846020,0,True,,
+knapsack_large_w,B&B Loose UB,486,73.357781,23391,23392,True,,
+knapsack_large_w,B&B Fractional UB,486,0.152580,90,82,True,,
+knapsack_large_w,B&B Loose UB (1s limit),486,83.943373,23391,23392,True,486.000000,0.000000
+knapsack_bnb_easy,Brute Force,3301,550.423574,6718421,1172556,True,,
+knapsack_bnb_easy,Dynamic Programming,3301,0.601571,10035,0,True,,
+knapsack_bnb_easy,B&B Loose UB,3301,11.310165,3681,3682,True,,
+knapsack_bnb_easy,B&B Fractional UB,3301,0.041609,22,23,True,,
+knapsack_bnb_easy,B&B Loose UB (1s limit),3301,11.714654,3681,3682,True,3301.000000,0.000000
+knapsack_bnb_hard,Brute Force,980,251.623384,3228403,579647,True,,
+knapsack_bnb_hard,Dynamic Programming,980,0.533880,9844,0,True,,
+knapsack_bnb_hard,B&B Loose UB,980,6633.851274,1253683,1253684,True,,
+knapsack_bnb_hard,B&B Fractional UB,980,21.276996,7965,7195,True,,
+knapsack_bnb_hard,B&B Loose UB (1s limit),980,1024.589817,214872,107239,False,1343.000000,37.040816
